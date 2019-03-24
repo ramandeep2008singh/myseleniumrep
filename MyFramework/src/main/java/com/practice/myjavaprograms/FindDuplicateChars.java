@@ -10,7 +10,7 @@ public class FindDuplicateChars {
 	public static void findDupCharsAndCount(String str) {
 		HashMap<String, String> hmap = new HashMap<String, String>();
 		for (int i=0; i<=str.length(); i++) {
-			hmap.put(str.charAt(i), "");
+//			hmap.put(str.charAt(i), "");
 		}
 	}
 }
